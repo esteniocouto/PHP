@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 14</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+
+<body>
+    
+
+    <form class="calculadora" action="dados.php" method="post">
+        <div class="title icon icon-forward-1"> Calculadora</div>
+
+        <div class="input-container">
+            <label class="legenda-p" >Insira o primeiro valor:</label>
+            <input class="input" type="number" name="v1" />
+        </div>
+
+
+        <div class="input-container">
+            <label class="legenda-p" >Insira o segundo valor :</label>
+            <input class="input" type="number" name="v2" />
+        </div>
+        
+        <select class="input-container" name="operacao">
+     <label class="legenda-p" name="operacao">Selecione uma operação</label> 
+            <option value="soma">+</option>
+            <option value="subtrai">-</option>
+            <option value="multiplica">*</option>
+            <option value="divide">/</option>
+        </select>
+
+        <button type="submit" class="btn" name="doCalc" value="Calcular" > Calcular </button>
+    </form>
+
+
+</body>
+</html>
